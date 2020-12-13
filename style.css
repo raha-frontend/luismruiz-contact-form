@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.contact-blocks {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #000;
+    opacity: 0.5;
+    width: 404px;
+    height: 396px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
