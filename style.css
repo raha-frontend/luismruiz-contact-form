@@ -13,9 +13,8 @@ body {
     align-items: center;
     background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
-    width: 800px;
-    height: 600px;
-    margin: 0 auto;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .contact-blocks {
@@ -24,9 +23,57 @@ body {
     background-color: #000;
     opacity: 0.5;
     width: 404px;
-    height: 396px;
     border: 1px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 10px;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 50px;
+    background-color: #7b7571;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+.field::placeholder {
+    color: #fff;
+}
+
+.input-name::placeholder {
+    color: #fbfbfb;
+}
+
+.message {
+    resize: vertical;
+    height: 130px;
+    padding-top: 12px;
+    background-position: 20px 15px;
+    background-image: url(./images/gemicon_message.png);
+}
+
+.input-name {
+    background-image: url(./images/gemicon_name.png);
+}
+
+.input-email {
+    background-image: url(./images/gemicon_email.png);
+}
+
+.send-btn {
+    display: block;
+    margin-left: auto;
+    border: 1px solid #253837;
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 18px;
+    background-color: #12ada6;
+    color: #fff;
+    cursor: pointer;
 }
 
