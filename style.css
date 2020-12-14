@@ -85,3 +85,9 @@ body {
     background-color: #4dbfba;
 }
 
+
+@media (max-width: 575px) {
+    .send-btn {
+        width: 100%;
+    }
+}
