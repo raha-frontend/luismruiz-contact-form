@@ -38,6 +38,7 @@ body {
     background-color:rgba(125, 118, 113, 0.5);
     background-repeat: no-repeat;
     background-position: 20px center;
+    color: #fff;
 }
 
 .field::placeholder {
@@ -74,5 +75,13 @@ body {
     background-color: #12ada6;
     color: #fff;
     cursor: pointer;
+}
+
+.send-btn:disabled {
+    opacity: 0.7;
+}
+
+.send-btn:hover {
+    background-color: #4dbfba;
 }
 
